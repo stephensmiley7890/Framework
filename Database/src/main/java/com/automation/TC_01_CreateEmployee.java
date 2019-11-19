@@ -31,7 +31,7 @@ public class TC_01_CreateEmployee {
 				driver.findElement(By.id("btnSave")).click();
 				driver.findElement(By.linkText("Welcome Admin")).click();
 				driver.findElement(By.linkText("Logout")).click();
-				Thread.sleep(2000);
+				Thread.sleep(5000);
 				driver.quit();
 				
 	}
